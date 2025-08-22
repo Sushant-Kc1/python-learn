@@ -1,6 +1,10 @@
 print("CHECK WETHER  NUMBER IS PALINDROM OR NOT\n")
 
-# int is not taken because while reversing the int the 0 dissapears because the leading zeros are not stored by variable
+# int is not taken because there occurs type error and if we convert 
+#  reversed number to integer  the 0 dissapears because the leading zeros are not stored by variable
+#  why because in mathematics 007 is considered as 7 an when we let a = 1200 in python its acceptable 
+#  but when reversed it has to follow mathematical rule but we want it exact 0021 so we cant use int if int is used it 
+#  gives output as 21
 num1=int(input("Enter the number you want to check( only integer value) \n"))
 
 reversenum=num1[::-1]
@@ -49,6 +53,7 @@ else:
 # o     4    "o"
 # n     5     "skip"
 # output pro
+
 
 
 
